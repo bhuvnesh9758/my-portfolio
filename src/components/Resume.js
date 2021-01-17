@@ -10,7 +10,7 @@ export default class Resume extends Component {
             <div>
             <Grid>
             <Cell col={4}>
-            <div style={{textAlign:'center'}}>
+            <div style={{textAlign:'center'}} className='resume-img'>
             <img
             src="https://cdn3.iconfinder.com/data/icons/many-peoples-vol-2/512/10-512.png"
             alt="avatar"
@@ -18,19 +18,19 @@ export default class Resume extends Component {
             />
             <h2 style={{paddingTop:'2em'}}>Bhuvnesh Sharma</h2>
             <h4 style={{color:'grey'}}>Programmer</h4>
-            <hr style={{borderTop:'3px solid #833fb2',width:'50%'}}/>
-            <p>and typesetting industry. Lorem Ipsum has been the
+            <hr style={{borderTop:'3px solid #833fb2',width:'50%',margin:'auto'}}/>
+            <p style={{width:'50%',margin:'auto',wordBreak:'break-all'}}>and typesetting industry. Lorem Ipsum has been the
             industry's standard dummy text ever since the 1500s
             , when an unknown printer took a galley of type and 
             scrambled it to make a type specimen book.</p>
-            <hr style={{borderTop:'3px solid #833fb2',width:'50%'}}/>
+            <hr style={{borderTop:'3px solid #833fb2',width:'50%',margin:'auto'}}/>
             <h5>Phone</h5>
             <p>(+91)9758931402</p>
             <h5>Email</h5>
             <p>bhuvneshsharma9758@gmail.com</p>
             <h5>Address</h5>
             <p>Tappal,Aligarh,UP</p>
-            <hr style={{borderTop:'3px solid #833fb2',width:'50%'}}/>
+            <hr style={{borderTop:'3px solid #833fb2',width:'50%',margin:'auto'}}/>
             </div>
             </Cell>
             <Cell className="resume-right-cell" col={8}>

@@ -26,11 +26,6 @@ export default class Contact extends Component {
             <List>
             <ListItem>
             <ListItemContent style={{fontFamily:'Anton',fontSize:'25px'}}>
-                <i className="fa fa-phone-square"/>
-                (+91)9758-931402</ListItemContent>
-            </ListItem>
-            <ListItem>
-            <ListItemContent style={{fontFamily:'Anton',fontSize:'25px'}}>
                 <i className="fa fa-envelope"/>
                 xyz@gmail.com
                 </ListItemContent>

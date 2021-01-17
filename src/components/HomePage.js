@@ -28,7 +28,7 @@ export default class HomePage extends Component {
                         </a>
                         {/**codechef */}
                         <a href="/" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-linkedin"></i>
+                        <i class="fas fa-code"></i>
                         </a>
                         {/**github */}
                         <a href="/" target="_blank" rel="noopener noreferrer">

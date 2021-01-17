@@ -8,7 +8,7 @@ export default class AboutMe extends Component {
             <Grid className="aboutme-grid">
             <Cell col={12}>
             <h2>About Me</h2>
-            <hr style={{width:'25%',borderTop:'3px solid white'}}/>
+            <hr style={{width:'50%',borderTop:'3px solid white'}}/>
             <p>typesetting industry. Lorem Ipsum has been the
             industry's standard typesetting industry. Lorem Ipsum has been the
             industry's standard dummy text ever since the 1500s

@@ -11,7 +11,7 @@ export default class Experience extends Component {
                 </Cell>
                 <Cell col={8}>
                     <h4>{this.props.jobName}</h4>
-                    <p>{this.props.jobDescription}</p>
+                    <p style={{wordBreak:'break-word'}}>{this.props.jobDescription}</p>
                 </Cell>
                 </Grid>
             </div>        )
