@@ -6,7 +6,7 @@ export default class Education extends Component {
             <div>
                 <Grid>
                 <Cell col={4}>
-                <p >{this.props.startYear}-{this.props.endYear}</p>
+                <p className="education-duration">{this.props.startYear}-{" "+this.props.endYear}</p>
                 </Cell>
                 <Cell col={8}>
                     <h4>{this.props.schoolName}</h4>

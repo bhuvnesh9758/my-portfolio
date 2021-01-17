@@ -52,6 +52,21 @@ padding-top: 5em;
 }
 .projects-grid{
   display: flex;
+  flex-wrap: wrap;
+}
+.project-display{
+  margin: auto;
+  margin-bottom: 40px;
+}
+.project-display a{
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.project-display a:hover{
+  font-size: medium;
+}
+.education-duration {
+  padding-top: 50px;
 }
 /* contact grid */
 .contact-body{
@@ -119,7 +134,7 @@ height: 100%;
 }
 .aboutme-grid p{
   padding-top: 30px;
-  width: 50%;
+  width: 40%;
   margin: auto;
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 25px;
